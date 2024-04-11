@@ -104,7 +104,7 @@ class Instruction(simpleGE.Scene):
         self.response = "quit"
         
         self.instruction = simpleGE.MultiLabel()
-        self.instruction.textlines = [
+        self.instruction.textLines = [
         "You are bike the rider.",
         "Move with the left and right arrow keys",
         "and catch as much ball as you can",
